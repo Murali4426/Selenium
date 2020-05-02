@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test-method Suite" duration-ms="156" started-at="2020-05-01T17:34:48Z" finished-at="2020-05-01T17:34:48Z">
+    <groups>
+    </groups>
+    <test name="Test-method test" duration-ms="156" started-at="2020-05-01T17:34:48Z" finished-at="2020-05-01T17:34:48Z">
+      <class name="testngexamples.ParallelMethodTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testngexamples.ParallelMethodTest@1b604f19]" name="beforeMethod" is-config="true" duration-ms="28" started-at="2020-05-01T13:34:48Z" finished-at="2020-05-01T13:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testngexamples.ParallelMethodTest@1b604f19]" name="beforeMethod" is-config="true" duration-ms="25" started-at="2020-05-01T13:34:48Z" finished-at="2020-05-01T13:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testngexamples.ParallelMethodTest@1b604f19]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2020-05-01T13:34:48Z" finished-at="2020-05-01T13:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethodsFour()[pri:0, instance:testngexamples.ParallelMethodTest@1b604f19]" name="testMethodsFour" duration-ms="15" started-at="2020-05-01T13:34:48Z" finished-at="2020-05-01T13:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodsFour -->
+        <test-method status="PASS" signature="testMethodsOne()[pri:0, instance:testngexamples.ParallelMethodTest@1b604f19]" name="testMethodsOne" duration-ms="27" started-at="2020-05-01T13:34:48Z" finished-at="2020-05-01T13:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodsOne -->
+        <test-method status="PASS" signature="testMethodsThree()[pri:0, instance:testngexamples.ParallelMethodTest@1b604f19]" name="testMethodsThree" duration-ms="25" started-at="2020-05-01T13:34:48Z" finished-at="2020-05-01T13:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodsThree -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testngexamples.ParallelMethodTest@1b604f19]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-05-01T13:34:48Z" finished-at="2020-05-01T13:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testngexamples.ParallelMethodTest@1b604f19]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-05-01T13:34:48Z" finished-at="2020-05-01T13:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethodsTwo()[pri:0, instance:testngexamples.ParallelMethodTest@1b604f19]" name="testMethodsTwo" duration-ms="11" started-at="2020-05-01T13:34:48Z" finished-at="2020-05-01T13:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodsTwo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testngexamples.ParallelMethodTest@1b604f19]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-05-01T13:34:48Z" finished-at="2020-05-01T13:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testngexamples.ParallelMethodTest@1b604f19]" name="afterMethod" is-config="true" duration-ms="5" started-at="2020-05-01T13:34:48Z" finished-at="2020-05-01T13:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testngexamples.ParallelMethodTest@1b604f19]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-05-01T13:34:48Z" finished-at="2020-05-01T13:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testngexamples.ParallelMethodTest -->
+    </test> <!-- Test-method test -->
+  </suite> <!-- Test-method Suite -->
+</testng-results>
