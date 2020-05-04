@@ -17,11 +17,11 @@ public class DatabaseExample {
 	public static void main(String[] args) {
 		// JDBC driver name and database URL
 		   final String JDBC_DRIVER = "oracle.jdbc.OracleDriver";  
-		   final String DB_URL = "jdbc:oracle:thin:@//QADB.NEWCORP.COM:1550/QA";
+		   final String DB_URL = "DB_URL";
 
 		   //  Database credentials
-		   final String USER = "QAAUTOMT";
-		   final String PASS = "Welcome789#";
+		   final String USER = "username";
+		   final String PASS = "password";
 		   Map map=null;
 		   int i=0;
 		   int column_count=0;
@@ -31,8 +31,7 @@ public class DatabaseExample {
 		   ResultSet rs =null;
 		   try{
 		      //STEP 2: Register JDBC driver
-		      //Class.forName("com.mysql.cj.jdbc.Driver");
-
+		   
 		      //STEP 3: Open a connection
 		      System.out.println("Connecting to database...");
 		      conn = DriverManager.getConnection(DB_URL,USER,PASS);
@@ -41,7 +40,7 @@ public class DatabaseExample {
 		      System.out.println("Creating statement...");
 		      stmt = conn.createStatement();
 		      String sql;
-		      sql = "select * from XX_AUTOMATION_EXE_RESULTS where CLIENT_NAME='aafes' and APPLICATION='CareCentral' and BUILD_NUMBER='1'";
+		      sql = "query";
 		      rs = stmt.executeQuery(sql);
 		      
 		      //getting the column type
